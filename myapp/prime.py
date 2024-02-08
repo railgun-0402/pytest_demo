@@ -1,11 +1,11 @@
 def is_prime(n: int) -> bool:
-    """奇数判断メソッド
+    """素数判断メソッド
 
     Args:
         n (int): 判断数値
 
     Returns:
-        bool: 奇数であればTrue、それ以外はFalse
+        bool: 素数であればTrue、それ以外はFalse(ただし、1はFalse)
     """
     if n <= 1:
         return False
